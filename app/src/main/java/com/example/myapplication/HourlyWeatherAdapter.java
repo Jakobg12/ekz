@@ -30,10 +30,10 @@ public class HourlyWeatherAdapter extends RecyclerView.Adapter<HourlyWeatherAdap
                 holder.weatherImageView.setImageResource(R.drawable.cloudy);
                 break;
             case "sunny":
-                holder.weatherImageView.setImageResource(R.drawable.Sun);
+                holder.weatherImageView.setImageResource(R.drawable.sun);
                 break;
             case "rainy":
-                holder.weatherImageView.setImageResource(R.drawable.Rain);
+                holder.weatherImageView.setImageResource(R.drawable.rain);
                 break;
         }
     }

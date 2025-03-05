@@ -2,7 +2,7 @@ package com.example.myapplication;
 
 import java.util.ArrayList;
 
-public class    Weather {
+public class Weather {
     String temp;
     String could;
     String mondayAvgTemp;

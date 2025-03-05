@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             Document d_doc = null;
             try {
                 d_doc = Jsoup.connect("https://api.weather.yandex.ru/v2/forecast?lat=52.37125&lon=4.89388")
-                        .header("X-Yandex-API-Key", "9223b2cf-2f9e-4162-8cc9-0f4726b69fc5")
+                        .header("X-Yandex-Weather-Key:", "9223b2cf-2f9e-4162-8cc9-0f4726b69fc5")
                         .ignoreContentType(true).get();
                 body = d_doc.text();
             }catch (Exception e){
